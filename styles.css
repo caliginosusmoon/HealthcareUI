@@ -1,0 +1,394 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    overflow-x: hidden;
+}
+
+
+
+.wrapper {
+    display: flex;
+    width: 1100px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    text-decoration: none;
+    background: transparent;
+    position: absolute;
+    z-index: 100;
+    font-size: 12px;
+    align-items: center;
+    justify-content: space-between;
+    height: 72px;
+    padding: 5px 5rem;
+
+
+}
+
+nav .logo {
+    flex-grow: 1;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    align-items: flex-start;
+    padding-left: 1rem;
+}
+
+.nav-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-items li {
+    list-style: none;
+    padding: 0 0.9rem;
+    position: relative;
+}
+
+
+
+.nav-items li a {
+    color: rgb(183, 179, 179);
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+}
+
+.register-btn button {
+    border: none;
+    border-radius: 10px;
+    background-color: #0E63DC;
+    color: white;
+    font-weight: 500;
+    font-size: 0.8rem;
+    padding: 15px 22px;
+
+}
+
+.login-btn p {
+    color: #0E63DC;
+    font-weight: 600;
+    margin-right: -10px;
+    margin-left: 1.3rem;
+}
+
+.active p {
+    font-weight: 700;
+    color: black;
+}
+
+.nav-items li a:hover::after,
+.nav-items li a.active::after {
+    content: "";
+    width: 16%;
+    height: 4px;
+    border-radius: 1px;
+    background: #0E63DC;
+    position: absolute;
+    bottom: -4px;
+    left: 2.1rem;
+}
+
+
+.header-container {
+    background: #F3F7FD;
+    padding-top: 2rem;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.header-left-content p {
+    font-size: 1.1rem;
+    color: rgb(183, 179, 179);
+    margin-top: 1rem;
+    line-height: 1.5;
+}
+
+.header-left-content {
+    flex-grow: 1;
+    padding-left: 6rem;
+}
+
+.right-shape-container {
+    position: relative;
+    bottom: -1rem;
+}
+
+.header-left-content {
+    font-size: 2rem;
+}
+
+.action-btn {
+    border: none;
+    border-radius: 10px;
+    background-color: #0E63DC;
+    color: white;
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    padding: 18px 22px;
+    box-shadow: 5px 15px 30px #6fa9fa;
+}
+
+.header-options-container {
+    position: absolute;
+    right: 0;
+    width: 550px;
+    height: 70px;
+    border-radius: 10px;
+    padding: 1rem;
+    background-color: white;
+}
+
+.doc-header-info {
+    display: flex;
+}
+
+.circular-logo {
+    position: absolute;
+    left: -1rem;
+    height: 50px;
+    width: 50px;
+    background-color: #0059d7;
+    border-radius: 100%;
+}
+
+.name-container {
+    margin-left: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.logo-icon {
+    padding-top: 0.5rem;
+}
+
+.name-content {
+    line-height: 1.9;
+}
+
+.name-content p {
+    color: rgb(183, 179, 179);
+}
+
+background-color: rgb(234, 241, 241);
+
+.fontcss {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    direction: ltr;
+    text-indent: 50px;
+    padding-left: 50;
+}
+
+#textcss {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    direction: ltr;
+    text-indent: 50px;
+    padding-left: 50;
+    padding-top: 50;
+}
+
+.text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    direction: ltr;
+    width: 100%;
+}
+
+#text2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    direction: ltr;
+    text-indent: 950px;
+
+}
+
+#text3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 13px;
+    direction: ltr;
+    text-indent: 950px;
+}
+
+.para {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+    direction: ltr;
+    text-indent: 900px;
+}
+
+.paraa {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    direction: ltr;
+    text-indent: 900px;
+}
+
+.para1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    direction: ltr;
+    text-indent: 820px;
+}
+
+.para2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    direction: ltr;
+    text-indent: 120px;
+}
+
+.para3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    direction: ltr;
+    text-indent: 40px;
+}
+
+.logo {
+    width: 20;
+    display: flex;
+    justify-content: left;
+    align-items: initial;
+}
+
+.logo img {
+    width: 33%;
+
+    border-radius: 50px;
+}
+
+#right {
+    float: right;
+    height: 300px;
+    width: 300px;
+    padding-right: 60px;
+}
+
+#left {
+    float: left;
+    height: 250px;
+    width: 250px;
+    padding-left: 80px;
+}
+
+div.item {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 120px;
+
+}
+
+
+
+.caption {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+    text-indent: 120px;
+}
+
+.pic1 {
+    position: relative;
+    width: 40px;
+    height: 40px;
+
+}
+
+.myclass {
+    display: flex;
+    text-align: center;
+
+}
+
+.icon1 {
+    display: flex;
+    text-align: center;
+    padding-left: 120;
+    color: blue;
+    width: 60px;
+}
+
+.extra {
+    padding-left: 120;
+}
+
+.extra0 {
+    padding-left: 950;
+}
+
+.extra1 {
+    padding-left: 120;
+}
+
+.extra2 {
+    padding-left: 900;
+}
+
+font-family:'Segoe UI',
+Tahoma,
+Geneva,
+Verdana,
+sans-serif;
+
+
+.overlap {
+    border-radius: 30px;
+    border-style: none;
+    padding: 2.5px;
+    background-color: rgb(212, 234, 249);
+    border-spacing: 15px;
+    position: top absolute;
+}
+
+input[type=button] {
+    background-color: rgb(55, 55, 242);
+    border: none;
+    border-radius: 1em;
+    padding: 16px 32px;
+    color: aliceblue;
+    text-transform: capitalize;
+}
+
+#table3 {
+    float: right;
+    border-spacing: 40px;
+    padding: 30px;
+}
+
+#table4 {
+    border: groove;
+    border-spacing: 20px;
+    border-radius: 20px;
+}
+
+#tables {
+    border-spacing: 30px;
+}
+
+
+.footer {
+    text-align: center;
+    background-color: rgb(155, 155, 245);
+}
